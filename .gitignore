@@ -1,2 +1,4 @@
 .hg*
 ebin/*.beam
+deps
+dist
