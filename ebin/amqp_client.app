@@ -9,7 +9,11 @@
              amqp_main_reader,
              amqp_network_connection,
              amqp_rpc_client,
-             amqp_rpc_server
+             amqp_rpc_server,
+             amqp_channel_sup,
+             amqp_channel_sup_sup,
+             amqp_connection_sup,
+             amqp_connection_type_sup
   ]},
   {registered, []},
   {env, []},
