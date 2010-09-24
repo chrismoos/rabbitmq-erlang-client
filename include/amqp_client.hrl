@@ -26,8 +26,8 @@
 -include_lib("rabbit_common/include/rabbit.hrl").
 -include_lib("rabbit_common/include/rabbit_framing.hrl").
 
-%-define(PROTOCOL_VERSION_MAJOR, 0).
-%-define(PROTOCOL_VERSION_MINOR, 9).
+-define(PROTOCOL_VERSION_MAJOR, 0).
+-define(PROTOCOL_VERSION_MINOR, 9).
 -define(PROTOCOL_HEADER, <<"AMQP", 0, 0, 9, 1>>).
 -define(PROTOCOL, rabbit_framing_amqp_0_9_1).
 
